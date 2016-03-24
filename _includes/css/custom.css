@@ -1,0 +1,109 @@
+body {
+    word-break: keep-all;
+}
+
+p {
+    font-size: 13pt;
+}
+
+header {
+    color: #{{ site.color.secondary-dark }};
+}
+
+header .intro-text {
+    padding-top: 200px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 20px;
+}
+
+header .intro-text .intro-lead-in {
+    font-family: sans-serif;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+a.portfolio-link {
+    background: white;
+    height: 260px;
+}
+
+ul.social-buttons li a {
+    background-color: rgba(53, 62, 72, .7);
+    margin-bottom: 150px;
+}
+
+.event {
+    margin-bottom: 50px;
+}
+
+.logo {
+    margin-top: -10px;
+    max-width: 200px;
+}
+
+.navbar-default.navbar-shrink {
+    background-color: rgba(53, 62, 72, .5);
+}
+
+#contact a.btn {
+    height: 90px;
+    margin: 30px;
+    min-width: 260px;
+}
+
+#contact a.btn small {
+    font-weight: normal;
+}
+
+#partners {
+    padding: 20px;
+}
+
+#partners .partner-logo {
+    margin: 10px auto;
+    opacity: 0.4;
+    filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    margin: 10px;
+    text-align: left;
+    top: 20%;
+    width: initial;
+}
+
+#portfolio .portfolio-link {
+    overflow: hidden;
+
+}
+
+#portfolio .portfolio-img {
+    height: 100%;
+    width: 100%;
+}
+
+@media(max-width:480px) {
+    header .intro-text {
+        padding-top: 150px;
+    }
+
+    ul.social-buttons li a {
+        margin-bottom: 70px;
+    }
+
+    p {
+        line-height: 17pt;
+    }
+
+    #contact a.btn {
+        margin: 10px;
+        padding: 10px;
+        height: initial;
+    }
+}
